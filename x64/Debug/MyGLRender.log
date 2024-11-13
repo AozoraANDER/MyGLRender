@@ -1,2 +1,6 @@
 ﻿  MyGLRender.cpp
-  MyGLRender.vcxproj -> C:\Users\LOU\source\repos\MyGLRender\x64\Debug\MyGLRender.exe
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender.cpp(53,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender.cpp(54,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender.cpp(55,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender.cpp(56,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+african_head.obj : fatal error LNK1107: 文件无效或损坏: 无法在 0x2F99D 处读取
