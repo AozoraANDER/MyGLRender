@@ -36,9 +36,4 @@
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <Object Include="african_head.obj">
-      <Filter>资源文件</Filter>
-    </Object>
-  </ItemGroup>
 </Project>

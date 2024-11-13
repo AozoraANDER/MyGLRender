@@ -1,0 +1,6 @@
+﻿  MyGLRender.cpp
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(58,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(59,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(60,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(61,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  MyGLRender.vcxproj -> C:\Users\LOU\source\repos\MyGLRender\MyGLRender\x64\Debug\MyGLRender.exe

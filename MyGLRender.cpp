@@ -1,6 +1,7 @@
 ﻿// MyGLRender.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
+#include <iostream>
 #include "tgaimage.h"
 #include "model.h"
 #include "geometry.h"
@@ -44,21 +45,29 @@ int main() {
 
   Model model("assets/african_head.obj");
 
+  std::cerr << "# 顶点数: " << model.nverts() << ", 面数: " << model.nfaces()
+            << std::endl;
+
   for (int i = 0; i < model.nfaces(); i++) {
     std::vector<int> face = model.face(i);
     for (int j = 0; j < (int)face.size(); j++) {
       Vec3f v0 = model.vert(face[j]);
       Vec3f v1 = model.vert(face[(j + 1) % face.size()]);
 
+      // 进行适当的平移和缩放
       int x0 = (v0.x + 1.) * 400;
-      int y0 = (v0.y + 1.) * 400;
+      int y0 = (1. - v0.y) * 400;
       int x1 = (v1.x + 1.) * 400;
-      int y1 = (v1.y + 1.) * 400;
+      int y1 = (1. - v1.y) * 400;
+
+      // 打印绘制的线段
+      std::cerr << "绘制线段: (" << x0 << ", " << y0 << ") -> (" << x1 << ", "
+                << y1 << ")" << std::endl;
 
       line(x0, y0, x1, y1, image, white);
     }
-
-    image.write_tga_file("output.tga");
-    return 0;
   }
-}
+
+  image.write_tga_file("output.tga");
+  return 0;
+};
