@@ -1,69 +1,110 @@
 ﻿  MyGLRender.cpp
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,42): warning C4244: “参数”: 从“t”转换到“t”，可能丢失数据
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,42): warning C4244:         with
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,42): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,42): warning C4244:             t=int
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,42): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,42): warning C4244:         and
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,42): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,42): warning C4244:             t=float
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,42): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,31): warning C4244: “参数”: 从“t”转换到“t”，可能丢失数据
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,31): warning C4244:         with
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,31): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,31): warning C4244:             t=int
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,31): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,31): warning C4244:         and
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,31): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,31): warning C4244:             t=float
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,31): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,20): warning C4244: “参数”: 从“t”转换到“t”，可能丢失数据
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,20): warning C4244:         with
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,20): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,20): warning C4244:             t=int
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,20): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,20): warning C4244:         and
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,20): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,20): warning C4244:             t=float
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(11,20): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,42): warning C4244: “参数”: 从“t”转换到“t”，可能丢失数据
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,42): warning C4244:         with
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,42): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,42): warning C4244:             t=int
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,42): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,42): warning C4244:         and
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,42): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,42): warning C4244:             t=float
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,42): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,31): warning C4244: “参数”: 从“t”转换到“t”，可能丢失数据
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,31): warning C4244:         with
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,31): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,31): warning C4244:             t=int
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,31): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,31): warning C4244:         and
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,31): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,31): warning C4244:             t=float
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,31): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,20): warning C4244: “参数”: 从“t”转换到“t”，可能丢失数据
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,20): warning C4244:         with
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,20): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,20): warning C4244:             t=int
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,20): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,20): warning C4244:         and
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,20): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,20): warning C4244:             t=float
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(12,20): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(57,62): warning C4244: “参数”: 从“double”转换到“t”，可能丢失数据
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(57,62): warning C4244:         with
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(57,62): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(57,62): warning C4244:             t=int
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(57,62): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(57,36): warning C4244: “参数”: 从“double”转换到“t”，可能丢失数据
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(57,36): warning C4244:         with
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(57,36): warning C4244:         [
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(57,36): warning C4244:             t=int
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(57,36): warning C4244:         ]
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(67,64): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(67,47): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
-C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(67,30): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\tgaimage.h(58,54): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+  (编译源文件“MyGLRender.cpp”)
+  
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,42): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,42): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,42): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,42): warning C4244:             T=int
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,42): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,42): warning C4244:         and
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,42): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,42): warning C4244:             T=float
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,42): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,31): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,31): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,31): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,31): warning C4244:             T=int
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,31): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,31): warning C4244:         and
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,31): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,31): warning C4244:             T=float
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,31): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,20): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,20): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,20): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,20): warning C4244:             T=int
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,20): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,20): warning C4244:         and
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,20): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,20): warning C4244:             T=float
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(21,20): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,42): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,42): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,42): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,42): warning C4244:             T=int
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,42): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,42): warning C4244:         and
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,42): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,42): warning C4244:             T=float
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,42): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,31): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,31): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,31): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,31): warning C4244:             T=int
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,31): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,31): warning C4244:         and
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,31): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,31): warning C4244:             T=float
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,31): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,20): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,20): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,20): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,20): warning C4244:             T=int
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,20): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,20): warning C4244:         and
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,20): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,20): warning C4244:             T=float
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(22,20): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(37,57): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(37,57): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(37,57): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(37,57): warning C4244:             T=float
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(37,57): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(37,33): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(37,33): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(37,33): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(37,33): warning C4244:             T=float
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(37,33): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,67): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,67): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,67): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,67): warning C4244:             T=float
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,67): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,67): warning C4244:         and
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,67): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,67): warning C4244:             T=int
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,67): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,62): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,62): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,62): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,62): warning C4244:             T=float
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,62): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,62): warning C4244:         and
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,62): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,62): warning C4244:             T=int
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(53,62): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(65,25): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(65,25): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(65,25): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(65,25): warning C4244:             T=float
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(65,25): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(65,20): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(65,20): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(65,20): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(65,20): warning C4244:             T=float
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(65,20): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(92,62): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(92,62): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(92,62): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(92,62): warning C4244:             T=int
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(92,62): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(92,36): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(92,36): warning C4244:         with
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(92,36): warning C4244:         [
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(92,36): warning C4244:             T=int
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(92,36): warning C4244:         ]
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(105,64): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(105,47): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
+C:\Users\LOU\source\repos\MyGLRender\MyGLRender\MyGLRender.cpp(105,30): warning C4244: “参数”: 从“float”转换到“unsigned char”，可能丢失数据
   MyGLRender.vcxproj -> C:\Users\LOU\source\repos\MyGLRender\MyGLRender\x64\Debug\MyGLRender.exe
