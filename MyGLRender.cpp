@@ -33,6 +33,8 @@ void loadUVCoords(const std::string &filename, std::vector<Vec2f> &uv_coords) {
       Vec2f uv;
       iss >> uv.x >> uv.y;
       uv_coords.push_back(uv);
+      std::cout << "Loaded UV coordinate: (" << uv.x << ", " << uv.y << ")"
+                << std::endl;
     }
   }
 }
@@ -60,6 +62,7 @@ void loadFaceUVIndices(const std::string &filename,
         face_uv.push_back(t_idx - 1);  // 索引从1开始，改为从0开始
       }
       face_uv_indices.push_back(face_uv);
+      std::cout << "Face UV indices: " << t_idx << std::endl;
     }
   }
 }
@@ -154,14 +157,16 @@ int main() {
   TGAImage image(800, 800, TGAImage::RGB);
   int width = 800;
   int height = 800;
-  Model model("assets/african_head.obj");
+  //Model model("assets/african_head.obj");
+  Model model("assets/Shield.obj");
 
   // 加载UV坐标和面UV索引
   loadUVCoords("assets/african_head.obj", uv_coords);
   loadFaceUVIndices("assets/african_head.obj", face_uv_indices);
 
   TGAImage diffuse_map;
-  if (!diffuse_map.read_tga_file("assets/african_head_diffuse.tga")) {
+  //if (!diffuse_map.read_tga_file("assets/african_head_diffuse.tga")) {
+  if (!diffuse_map.read_tga_file("assets/shieldmesh_standardSurface1_BaseColor.tga")) {
     std::cerr << "Error: Cannot load the texture file!" << std::endl;
     return 1;
   }
@@ -181,13 +186,25 @@ int main() {
     Vec3f world_coords[3];
     Vec2i screen_coords[3];
     Vec2f uv_coords_triangle[3];
+    float scale = 0.1;
+
+    
 
     for (int j = 0; j < 3; j++) {
       Vec3f v = model.vert(face[j]);
+
+      v = v * 0.5;  // 缩小模型以适配视图
+      v.z -= 3;     // 向后移动模型，假设z轴为深度方向
+
       world_coords[j] = v;
       screen_coords[j] =
           Vec2i((v.x + 1.) * width / 2., (v.y + 1.) * height / 2.);
+
       uv_coords_triangle[j] = uv_coords[face_uv[j]];  // 获取每个顶点的UV坐标
+    }
+
+    for (int j = 0; j < 3; j++) {
+      world_coords[j] = world_coords[j] * scale;  // 缩放模型
     }
 
     Vec3f n = cross(world_coords[2] - world_coords[0],
