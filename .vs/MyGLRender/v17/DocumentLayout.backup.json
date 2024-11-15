@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|solutionrelative:MyGLRender.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\geometry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|solutionrelative:geometry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\geometry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|solutionrelative:geometry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|solutionrelative:model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|solutionrelative:model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\tgaimage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|solutionrelative:tgaimage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -15,19 +31,7 @@
       "RelativeMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|solutionrelative:tgaimage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|solutionrelative:model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|solutionrelative:model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\corecrt_stdio_config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\geometry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BE43F2FD-FA10-4980-BF06-6FE3493DEAE5}|MyGLRender.vcxproj|solutionrelative:geometry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\corecrt_wstdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -40,11 +44,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "geometry.cpp",
+              "DocumentMoniker": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\geometry.cpp",
+              "RelativeDocumentMoniker": "geometry.cpp",
+              "ToolTip": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\geometry.cpp",
+              "RelativeToolTip": "geometry.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-14T16:45:09.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "corecrt_stdio_config.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\corecrt_stdio_config.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\corecrt_stdio_config.h",
@@ -52,12 +69,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\corecrt_stdio_config.h",
               "ViewState": "AgIAAFIAAAAAAAAAAAAawGUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T16:32:42.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T16:32:42.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "corecrt_wstdio.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\corecrt_wstdio.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\corecrt_wstdio.h",
@@ -69,20 +85,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "geometry.h",
               "DocumentMoniker": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\geometry.h",
               "RelativeDocumentMoniker": "geometry.h",
               "ToolTip": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\geometry.h",
               "RelativeToolTip": "geometry.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAgwKIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-13T12:54:32.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "model.h",
               "DocumentMoniker": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\model.h",
               "RelativeDocumentMoniker": "model.h",
@@ -95,20 +111,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "tgaimage.h",
               "DocumentMoniker": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\tgaimage.h",
               "RelativeDocumentMoniker": "tgaimage.h",
               "ToolTip": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\tgaimage.h",
               "RelativeToolTip": "tgaimage.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAADgvx4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-13T12:54:31.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "tgaimage.cpp",
               "DocumentMoniker": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\tgaimage.cpp",
               "RelativeDocumentMoniker": "tgaimage.cpp",
@@ -116,8 +132,7 @@
               "RelativeToolTip": "tgaimage.cpp",
               "ViewState": "AgIAACoBAAAAAAAAAAAAAEEBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T12:54:27.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T12:54:27.501Z"
             },
             {
               "$type": "Document",
@@ -127,20 +142,20 @@
               "RelativeDocumentMoniker": "MyGLRender.cpp",
               "ToolTip": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\MyGLRender.cpp*",
               "RelativeToolTip": "MyGLRender.cpp*",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAgwKkAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAANIAAAAAAAAAAAAowOYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-13T12:54:26.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "model.cpp",
               "DocumentMoniker": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\model.cpp",
               "RelativeDocumentMoniker": "model.cpp",
               "ToolTip": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\model.cpp",
               "RelativeToolTip": "model.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-13T12:54:24.699Z",
               "EditorCaption": ""

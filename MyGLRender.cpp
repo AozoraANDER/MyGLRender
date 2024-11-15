@@ -12,6 +12,21 @@
 
 std::vector<Vec2f> uv_coords;
 
+Matrix perspective_projection(float fov, float aspect_ratio, float near,
+                              float far) {
+  float f = 1.0f / std::tan(fov / 2.0f);
+  Matrix projection = Matrix::identity(4);
+
+  projection[0][0] = f / aspect_ratio;
+  projection[1][1] = f;
+  projection[2][2] = (far + near) / (near - far);
+  projection[2][3] = (2 * far * near) / (near - far);
+  projection[3][2] = -1;
+  projection[3][3] = 0;
+
+  return projection;
+}
+
 Vec3f cross(const Vec3f &v1, const Vec3f &v2) {
   return Vec3f(v1.y * v2.z - v1.z * v2.y, v1.z * v2.x - v1.x * v2.z,
                v1.x * v2.y - v1.y * v2.x);
@@ -83,7 +98,7 @@ Vec3f barycentric(Vec2i A, Vec2i B, Vec2i C, Vec2i P) {
 void triangle(Vec3f *world_coords, Vec2i *screen_coords, Vec2f *uv_coords,
               float *zbuffer, TGAImage &image, TGAImage &diffuse_map,
               float intensity) {
-  // 你的包围盒计算和深度缓冲代码保持不变
+  // 包围盒计算和深度缓冲代码保持不变
 
     Vec2f bboxmin(std::numeric_limits<float>::max(),
                 std::numeric_limits<float>::max());
@@ -137,9 +152,9 @@ void triangle(Vec3f *world_coords, Vec2i *screen_coords, Vec2f *uv_coords,
         // 应用光照强度
         TGAColor color =
             diffuse_map.get(static_cast<int>(uv.x), static_cast<int>(uv.y));
-        color.bgra[0] = (unsigned char)(color.bgra[0] * intensity);
-        color.bgra[1] = (unsigned char)(color.bgra[1] * intensity);
-        color.bgra[2] = (unsigned char)(color.bgra[2] * intensity);
+        color.b = static_cast<unsigned char>(color.b * intensity);
+        color.g = static_cast<unsigned char>(color.g * intensity);
+        color.r = static_cast<unsigned char>(color.r * intensity);
 
        Vec3f bc_screen = barycentric(screen_coords[0], screen_coords[1],
                                       screen_coords[2], Vec2i(P.x, P.y));
@@ -157,16 +172,14 @@ int main() {
   TGAImage image(800, 800, TGAImage::RGB);
   int width = 800;
   int height = 800;
-  //Model model("assets/african_head.obj");
-  Model model("assets/Shield.obj");
 
-  // 加载UV坐标和面UV索引
+  Model model("assets/african_head.obj");
+
   loadUVCoords("assets/african_head.obj", uv_coords);
   loadFaceUVIndices("assets/african_head.obj", face_uv_indices);
 
   TGAImage diffuse_map;
-  //if (!diffuse_map.read_tga_file("assets/african_head_diffuse.tga")) {
-  if (!diffuse_map.read_tga_file("assets/shieldmesh_standardSurface1_BaseColor.tga")) {
+  if (!diffuse_map.read_tga_file("assets/african_head_diffuse.tga")) {
     std::cerr << "Error: Cannot load the texture file!" << std::endl;
     return 1;
   }
@@ -179,6 +192,13 @@ int main() {
 
   Vec3f light_dir(0, 0, -1);  // 定义光照方向
 
+  // 定义透视投影矩阵
+  float fov = 45* M_PI / 180.0f;
+  float aspect_ratio = width / (float)height;
+  float near = 0.1f;
+  float far = 100.0f;
+  Matrix projection = perspective_projection(fov, aspect_ratio, near, far);
+
   for (int i = 0; i < model.nfaces(); i++) {
     std::vector<int> face = model.face(i);
     std::vector<int> face_uv = face_uv_indices[i];  // 获取每个面的UV索引
@@ -186,26 +206,33 @@ int main() {
     Vec3f world_coords[3];
     Vec2i screen_coords[3];
     Vec2f uv_coords_triangle[3];
-    float scale = 0.1;
-
-    
 
     for (int j = 0; j < 3; j++) {
       Vec3f v = model.vert(face[j]);
 
-      v = v * 0.5;  // 缩小模型以适配视图
-      v.z -= 3;     // 向后移动模型，假设z轴为深度方向
+      // 将 Vec3f 扩展为 Vec4f，用于与投影矩阵相乘
+
+      Vec4f homogenous_vertex(v.x, v.y, v.z + 3.0f, 1.0f);  // 将模型沿 Z 轴后移
+
+      Vec4f transformed_vertex = projection * homogenous_vertex;
+
+
+
+      // 进行透视除法
+      if (transformed_vertex.w != 0) {
+        transformed_vertex.x /= transformed_vertex.w;
+        transformed_vertex.y /= transformed_vertex.w;
+        transformed_vertex.z /= transformed_vertex.w;
+      }
+
+      // 转换为屏幕坐标
+      screen_coords[j] = Vec2i((transformed_vertex.x + 1.0f) * width / 2.0f,
+                               (transformed_vertex.y + 1.0f) * height / 2.0f);
 
       world_coords[j] = v;
-      screen_coords[j] =
-          Vec2i((v.x + 1.) * width / 2., (v.y + 1.) * height / 2.);
-
       uv_coords_triangle[j] = uv_coords[face_uv[j]];  // 获取每个顶点的UV坐标
     }
 
-    for (int j = 0; j < 3; j++) {
-      world_coords[j] = world_coords[j] * scale;  // 缩放模型
-    }
 
     Vec3f n = cross(world_coords[2] - world_coords[0],
                     world_coords[1] - world_coords[0]);
@@ -216,10 +243,11 @@ int main() {
     if (intensity > 0) {
       triangle(world_coords, screen_coords, uv_coords_triangle, zbuffer, image,
                diffuse_map, intensity);
-     }
-    }
 
-  image.flip_vertically();  // 翻转图像，使原点在左下角
+    }
+  }
+
+  //image.flip_vertically();  // 翻转图像，使原点在左下角
   image.write_tga_file("Alpha.tga");
 
   delete[] zbuffer;  // 释放 zbuffer
