@@ -248,7 +248,7 @@ int main() {
   }
 
   //image.flip_vertically();  // 翻转图像，使原点在左下角
-  image.write_tga_file("Alpha.tga");
+  image.write_tga_file("sample.tga");
 
   delete[] zbuffer;  // 释放 zbuffer
   return 0;

@@ -44,20 +44,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "geometry.cpp",
-              "DocumentMoniker": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\geometry.cpp",
-              "RelativeDocumentMoniker": "geometry.cpp",
-              "ToolTip": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\geometry.cpp",
-              "RelativeToolTip": "geometry.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-14T16:45:09.628Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -93,8 +84,7 @@
               "RelativeToolTip": "geometry.h",
               "ViewState": "AgIAAJQAAAAAAAAAAAAgwKIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T12:54:32.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T12:54:32.242Z"
             },
             {
               "$type": "Document",
@@ -106,8 +96,32 @@
               "RelativeToolTip": "model.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T12:54:31.809Z",
+              "WhenOpened": "2024-11-13T12:54:31.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyGLRender.cpp",
+              "DocumentMoniker": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\MyGLRender.cpp",
+              "RelativeDocumentMoniker": "MyGLRender.cpp",
+              "ToolTip": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\MyGLRender.cpp",
+              "RelativeToolTip": "MyGLRender.cpp",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAAAP0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-13T12:54:26.79Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "geometry.cpp",
+              "DocumentMoniker": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\geometry.cpp",
+              "RelativeDocumentMoniker": "geometry.cpp",
+              "ToolTip": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\geometry.cpp",
+              "RelativeToolTip": "geometry.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-14T16:45:09.628Z"
             },
             {
               "$type": "Document",
@@ -119,8 +133,7 @@
               "RelativeToolTip": "tgaimage.h",
               "ViewState": "AgIAABIAAAAAAAAAAADgvx4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T12:54:31.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T12:54:31.389Z"
             },
             {
               "$type": "Document",
@@ -136,19 +149,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyGLRender.cpp",
-              "DocumentMoniker": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\MyGLRender.cpp",
-              "RelativeDocumentMoniker": "MyGLRender.cpp",
-              "ToolTip": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\MyGLRender.cpp*",
-              "RelativeToolTip": "MyGLRender.cpp*",
-              "ViewState": "AgIAANIAAAAAAAAAAAAowOYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T12:54:26.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "model.cpp",
               "DocumentMoniker": "C:\\Users\\LOU\\source\\repos\\MyGLRender\\MyGLRender\\model.cpp",
@@ -157,8 +157,7 @@
               "RelativeToolTip": "model.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T12:54:24.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T12:54:24.699Z"
             }
           ]
         }
